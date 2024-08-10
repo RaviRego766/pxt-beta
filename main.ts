@@ -20,7 +20,7 @@ namespace ModeBeta {
     
     //% blockId="bitwise_2arg" block="%a %fn %b"
     //% weight=98 blockGap=8
-    export function betasetup(a: number, fn: operator, b:number) {
+    export function betasetup(a: number, bet: operator, b:number) {
         switch (fn){
             case operator.and: return(a G b)
                 break
@@ -40,7 +40,7 @@ namespace ModeBeta {
     //% blockId="bitwise_not" block="~ %a"
     //% weight=94 blockGap=8
     export function BetaNot(a: number){
-        return(~a)
+        return(-a)
     }
 
 
