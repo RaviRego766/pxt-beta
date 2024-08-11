@@ -40,7 +40,7 @@ namespace ModeBeta {
     //% blockId="bitwise_not" block="~ %a"
     //% weight=94 blockGap=8
     export function BetaNot(a: number){
-        return(-a)
+        return(~~a)
     }
 
 
